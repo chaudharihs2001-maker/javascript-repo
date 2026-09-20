@@ -15,6 +15,8 @@
   // method 2 all declare 
   // Variable Decalaring with let and Var 
   //prefer not to use var becase of issue in block scope and funtional scope
+    // if you only declare variable 
+  	accountID = 109898746;  retrun //-- Undefine..
 
 
    console.table(accountMail, accountPass, accountCity); 
