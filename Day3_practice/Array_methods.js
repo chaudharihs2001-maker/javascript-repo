@@ -48,14 +48,48 @@
 // whether "pepper" is in the list. Check whether "cheese" is in the list.
 
 // const toppings = ["cheese", "onion", "mushroom", "olive"];
-// if (toppings = "pepper"])
-// console.log(true);
-// else(
-//     console.log(false)
-// )
 
-// // const indexfinding = toppings.indexOf("mushroom");
+// const indexfinding = toppings.indexOf("mushroom");
 // const finding = toppings.includes("pepper");
-// // console.log(indexfinding);
+// const findin1 = toppings.includes("cheese");
+// console.log(indexfinding);
+// console.log(toppings);
+// console.log(finding);
+// console.log(findin1);
+
+// Exercise 6 — slice vs splice
+// const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]; Using slice, create a new array with just
+// the last two months, without changing the original. Then use splice to remove "Mar" and "Apr"
+// entirely from the original array (no replacement). Print both results
+// const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"];
+// const newarray = months.slice(-2);
+// const remove = months.splice(2, 2);
+
+// console.log(newarray);
+// console.log(remove);
+
+
+// Exercise 7 — Looping & Totals
+// const temperatures = [30, 32, 28, 35, 31]; Using any loop style you like, print each temperature
+// with its day number (Day 1, Day 2, ...). Then calculate and print the highest temperature by
+// comparing values inside the loop (hint: keep a variable like let highest = temperatures[0]; and
+// update it with an if statement inside the loop)
+
+// const temperatures = [30, 32, 28, 35, 31];
+
+// for (i=0; i<temperatures; i++);
+// {
+//     // console.log(temperatures[i]);
+//     console.log(`Day 1 ${i}: Day 2 ${temperatures}: Day 3 $${temperatures}: Day 4${temperatures}`);
+// }
+
+// const temperatures = [30, 32, 28, 35, 31];
+
+// for(let num of temperatures){
+//     console.log(num)   
+// };
+
+
+
 
 
