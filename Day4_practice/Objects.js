@@ -54,3 +54,14 @@ console.log(scores['english']);
 // Using the laptop object from Exercise 2, check whether a "warranty" property exists. If it doesn't,
 // delete the storage property instead. Print the final object either way.
 
+// Exercise 6 — A Method with this
+// Create an object rectangle with width and height properties, and a method getPerimeter that
+// calculates and prints 2 * (this.width + this.height). Call the method.
+// Exercise 7 — Nested Objects
+// Create an object company with a name property and a nested object address containing street
+// and city. Print a sentence combining company.name and company.address.city using a template
+// literal.
+// Exercise 8 — Mini Challenge: Array of Objects
+// Create an array called inventory holding four objects, each with itemName, quantity, and
+// pricePerUnit. Using a loop: print each item as "ItemName x Quantity = Total" (quantity times
+// pricePerUnit), and kee
